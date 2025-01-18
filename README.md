@@ -104,19 +104,10 @@ Make sure the path corresponds to where you have saved the `chromedriver` on you
 
 With these steps completed, you'll be ready to start scraping with Scrapy, Selenium, and manage proxies using Luminati.
 
-If you need further assistance or have additional questions, feel free to reach out!
 
+### Run the Spider
 
+To run the Scrapy spider named `boxoffice` and output the scraped data to a file called `boxoffice.csv`, use the following command:
 
-### 7. Database Schema
-PostgreSQL table creation script:
-```sql
-CREATE TABLE IF NOT EXISTS movies (
-    rank TEXT,
-    title TEXT,
-    lifetime_gross TEXT,
-    year TEXT,
-    budget TEXT,
-    mpaa_rating TEXT,
-    running_time TEXT
-);
+```bash
+scrapy crawl boxoffice -o boxoffice.csv
