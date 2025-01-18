@@ -67,3 +67,14 @@ CREATE TABLE IF NOT EXISTS movies (
     running_time TEXT
 );
 
+imdb_scraper/
+│
+├── imdb_scraper/
+│   ├── spiders/
+│   │   └── boxoffice_spider.py      # Main spider script
+│   ├── middlewares.py               # Middleware for proxies and Selenium
+│   ├── pipelines.py                 # PostgreSQL pipeline
+│   └── settings.py                  # Scrapy settings
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
+
