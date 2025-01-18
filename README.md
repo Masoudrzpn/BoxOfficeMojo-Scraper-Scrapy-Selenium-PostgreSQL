@@ -1,0 +1,2 @@
+# BoxOfficeMojo-Scraper-Scrapy-Selenium-PostgreSQL
+This repository contains a robust implementation for scraping movie data from the **BoxOfficeMojo** website using **Scrapy** and **Selenium**. The project collects data about top-grossing movies, including their rank, title, lifetime gross, year, budget, MPAA rating, and runtime. Additionally, the scraped data is stored in a **PostgreSQL database**
