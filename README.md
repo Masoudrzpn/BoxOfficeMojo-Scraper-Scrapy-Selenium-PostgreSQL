@@ -93,17 +93,6 @@ Make sure the path corresponds to where you have saved the `chromedriver` on you
 
 With these steps completed, you'll be ready to start scraping with Scrapy, Selenium, and manage proxies using Luminati.
 
-imdb_scraper/
-│
-├── imdb_scraper/
-│   ├── spiders/
-│   │   └── boxoffice_spider.py      # Main spider script
-│   ├── middlewares.py               # Middleware for proxies and Selenium
-│   ├── pipelines.py                 # PostgreSQL pipeline
-│   └── settings.py                  # Scrapy settings
-├── requirements.txt                 # Python dependencies
-├── README.md                        # Project documentation
-
 ### Run the Spider
 
 To run the Scrapy spider named `boxoffice` and output the scraped data to a file called `boxoffice.csv`, use the following command:
