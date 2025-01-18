@@ -54,6 +54,7 @@ This repository contains a robust implementation for scraping movie data from th
 - Configured for Scrapy-Selenium integration.
 - Optimized with user-agent settings and appropriate Selenium driver options.
 
+
 ### 5. Folder Structure
 imdb_scraper/
 │
@@ -65,6 +66,7 @@ imdb_scraper/
 │   └── settings.py                  # Scrapy settings
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Project documentation
+
 
 # Installation and Setup
 
