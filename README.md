@@ -55,19 +55,6 @@ This repository contains a robust implementation for scraping movie data from th
 - Optimized with user-agent settings and appropriate Selenium driver options.
 
 
-### 5. Folder Structure
-imdb_scraper/
-│
-├── imdb_scraper/
-│   ├── spiders/
-│   │   └── boxoffice_spider.py      # Main spider script
-│   ├── middlewares.py               # Middleware for proxies and Selenium
-│   ├── pipelines.py                 # PostgreSQL pipeline
-│   └── settings.py                  # Scrapy settings
-├── requirements.txt                 # Python dependencies
-├── README.md                        # Project documentation
-
-
 # Installation and Setup
 
 ## 1. Install Dependencies
@@ -106,6 +93,16 @@ Make sure the path corresponds to where you have saved the `chromedriver` on you
 
 With these steps completed, you'll be ready to start scraping with Scrapy, Selenium, and manage proxies using Luminati.
 
+imdb_scraper/
+│
+├── imdb_scraper/
+│   ├── spiders/
+│   │   └── boxoffice_spider.py      # Main spider script
+│   ├── middlewares.py               # Middleware for proxies and Selenium
+│   ├── pipelines.py                 # PostgreSQL pipeline
+│   └── settings.py                  # Scrapy settings
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
 
 ### Run the Spider
 
